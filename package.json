@@ -1,0 +1,24 @@
+{
+  "name": "ts-cpu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small TypeScript CPU emulator",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
