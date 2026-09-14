@@ -10,9 +10,15 @@ cpu.loadProgram(compiledProgram);
 cpu.run();
 ```
 
-![YouTube Video](https://raw.githubusercontent.com/anthonybudd/anthonybudd/master/img/yt-ts-cpu-cover.png)
-
-[Watch On YouTube: youtu.be/yQP7KTeFAAs](https://youtu.be/yQP7KTeFAAs)
+<p align="center">
+    <a href="https://youtu.be/yQP7KTeFAAs">
+        <img width="300" src="https://raw.githubusercontent.com/anthonybudd/anthonybudd/master/img/yt-ts-cpu-cover.png" alt="YouTube Video">
+    </a>
+    </br>
+    <a href="https://youtu.be/yQP7KTeFAAs">
+    Watch On YouTube: youtu.be/yQP7KTeFAAs
+    </a>
+</p>
 
 
 
