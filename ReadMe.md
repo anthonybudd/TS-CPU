@@ -10,7 +10,7 @@ cpu.loadProgram(compiledProgram);
 cpu.run();
 ```
 
-![YouTube Video](https://raw.githubusercontent.com/anthonybudd/anthonybudd/master/img/ts-cpu-cover.png)
+![YouTube Video](https://raw.githubusercontent.com/anthonybudd/anthonybudd/master/img/yt-ts-cpu-cover.png)
 
 [Watch On YouTube: youtu.be/yQP7KTeFAAs](https://youtu.be/yQP7KTeFAAs)
 
