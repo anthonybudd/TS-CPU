@@ -43,7 +43,7 @@ export default class CPU {
         const lines = program.split('\n');
         let addr = 0;
         for (const line of lines) {
-            if (addr > 128)
+            if (addr > 127)
                 throw new Error('Program is larger than 128 bytes');
             const value = Number(line.trim());
             if (!Number.isInteger(value) || value < 0 || value > 0xFF)
@@ -65,7 +65,7 @@ export default class CPU {
     }
 
     fetchNextByte(): number {
-        if (this.counter > 128) return -1;
+        if (this.counter > 127) return -1;
         const value = this.memory[this.counter];
         this.counter++;
         return value;
