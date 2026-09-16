@@ -3,22 +3,19 @@
 A basic CPU implemented in TypeScript with a custom programming language and compiler.
 
 ```ts
+const cpu = new CPU();
+cpu.loadProgram(Compiler.compile("./program.ass"));
+cpu.run();
+```
+
+<small>program.ass</small>
+```ts
 STORE(0xFD, 1)
 STORE(0xFE, 2)
 ADD(0xFD, 0xFE)
 R_MOVE(0xFF)
 PRINT(0xF)
 ```
-
-```ts
-const compiledProgram = Compiler.compile("./program.ass");
-
-const cpu = new CPU();
-cpu.loadProgram(compiledProgram);
-cpu.run();
-```
-
-
 
 <p align="center">
     <a href="https://youtu.be/yQP7KTeFAAs">
