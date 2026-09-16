@@ -8,8 +8,8 @@ cpu.loadProgram(Compiler.compile("./program.ass"));
 cpu.run();
 ```
 
-<sub><sup>program.ass</sub></sup>
 ```ts
+// program.ass
 STORE(0xFD, 1)
 STORE(0xFE, 2)
 ADD(0xFD, 0xFE)
